@@ -74,3 +74,5 @@ the code extracts email and phone number from the request the body . Ensure emai
 
 connection = get_db_connection()
 data base connection 
+
+then fetch values (email and phone number) from the database and check if email or phone number is found just create another sections and mentions as secondery and linked id .
