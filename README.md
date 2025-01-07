@@ -58,3 +58,4 @@ click on
 # output table
 
 click on "database_table_output.png" file
+https://github.com/psarkar8585/Identity-Reconciliation/blob/a1c453700a0ff81396268e500e945159a4ae5de7/database_table_output.png
