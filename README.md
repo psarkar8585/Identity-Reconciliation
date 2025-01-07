@@ -52,5 +52,9 @@ def get_db_connection():
 
 
 # database design
+click on
+"database_design.png" file
 
- image.png
+# output table
+
+click on "database_table_output.png" file
