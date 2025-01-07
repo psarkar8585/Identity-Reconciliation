@@ -53,4 +53,4 @@ def get_db_connection():
 
 # database design
 
- /home/priti-sarkar/Documents/Tutorial/Project/EMotorad_project/image.png
+ image.png
