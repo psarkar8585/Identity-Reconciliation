@@ -20,7 +20,7 @@ Python Dependencies:
 
 
 # Database Setup
-Ensure a PostgreSQL database named EMotorad exists with a table called Contact. 
+1. Ensure a PostgreSQL database named EMotorad exists with a table called Contact. 
 Use the following schema:
 
 CREATE TABLE Contact (
@@ -34,11 +34,11 @@ CREATE TABLE Contact (
     FOREIGN KEY (linkedId) REFERENCES Contact(id)
 );
 
-# create a file "app.py" where write whole code 
-# install virtual enviornment (env) , flask and psycopg2
+2. create a file "app.py" where write whole code 
+3. install virtual enviornment (env) , flask and psycopg2
 
 # Configure Database Connection
-Update the get_db_connection function in app.py with your PostgreSQL credentials:
+4. Update the get_db_connection function in app.py with your PostgreSQL credentials:
 
 def get_db_connection():
     return psycopg2.connect(
@@ -48,5 +48,9 @@ def get_db_connection():
         dbname='EMotorad'
     )
 # Run the Application:
+5. python3 app.py
 
 
+# database design
+
+ /home/priti-sarkar/Documents/Tutorial/Project/EMotorad_project/image.png
