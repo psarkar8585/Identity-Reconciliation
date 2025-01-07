@@ -59,3 +59,18 @@ click on
 
 click on "database_table_output.png" file
 https://github.com/psarkar8585/Identity-Reconciliation/blob/a1c453700a0ff81396268e500e945159a4ae5de7/database_table_output.png
+
+
+# code explaination 
+
+ data = request.get_json()
+    email = data.get('email')
+    phone_number = data.get('phoneNumber')
+
+    if not email and not phone_number:
+        return jsonify({"error": "Email or phone number required"}), 400
+
+the code extracts email and phone number from the request the body . Ensure email and phone number is provide or not.
+
+connection = get_db_connection()
+data base connection 
